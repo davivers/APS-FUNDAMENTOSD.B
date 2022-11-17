@@ -1,0 +1,99 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgs/wallpaper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-y: hidden;
+   }
+
+
+#titlebar_home {
+    position: absolute;
+    height: 40px;
+    width: calc(100% - 2px);
+    padding: 38px;
+    background-color: #fdf7f200;
+}
+
+#titlebar_home a{
+  position: relative;
+  left: 4.5%;
+  color: black;
+  text-decoration: none;
+  align-self: center;
+  letter-spacing: 3px;
+
+}
+
+#titlebar_home a:hover{
+  border-bottom: 2px solid rgb(151, 195, 206);
+}
+
+#titlebar_home img{
+    padding: 6px;
+    position: relative;
+    left: 3%;
+    max-width: 70px;
+}
+
+#titlebar_sec{
+    position: absolute;
+    left: 25%;
+    top: 78%;
+}
+
+#titlebar_sec a:hover{
+    border-bottom: 2px solid rgb(151, 195, 206);
+  }
+
+#titlebar_sec a:active{
+    border-bottom: 2px solid rgb(151, 195, 206);
+}
+  
+
+  
+.form_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 95%;
+    min-width: 95%;
+    height: 650px;
+    transform: translate(-50%, -50%);
+    background-color: #FDF7F2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#brasil_map{
+    content: url(../imgs/646-6469264_brazil-brazil-map.png);
+    position: fixed;
+    left: 10%;
+    bottom: -2%;
+    max-width: 750px;
+
+}
+
+#img_indx{
+    content: url(../imgs/5.png);
+    max-width: 450px;
+    position: fixed;
+    right: 3%;
+    top: -10%;
+}
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 2%;
+    left: 36%;
+}
+
+footer p{
+    font-size: 13px;
+    color: black;
+}
