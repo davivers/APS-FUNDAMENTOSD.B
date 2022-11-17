@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link href="../css-components/home.css" rel="stylesheet" />
+  <link href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet" />
+  <link href="../node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <title>APS - POO</title>
+</head>
+
+<body>
+  <div class="form_container">
+    <div id="titlebar_home">
+      <img src="../imgs/activism.png" />
+      <a class="active" href="#">Home</a>
+      <div id="titlebar_sec">
+        <a href="favorite.html">Favorite Cities</a>
+      </div>
+    </div>
+    <div id="img_indx"></div>
+    <div id="brasil_map"></div>
+
+    <div class="input">
+      <div id="img_ukraine"></div>
+
+      <div class="input-group mb-3" method="POST">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="First Name" aria-label="Username" aria-describedby="basic-addon1" name="nome">
+      </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="City" aria-label="Search" aria-describedby="basic-addon1" name="city">
+      </div>
+      <button type="submit" class="btn btn-success">Search</button>
+
+    </div>
+
+    <div id="analy_p">
+      <p>Your Data will be used as analytics to help other imigrants to find the best suitable place.</p>
+    </div>
+  </div>
+  <footer>
+    <p>© 2022 David Lima. All Rights Reserved.</p>
+  </footer>
+  <script src="../renderer.js"></script>
+</body>
+
+</html>
