@@ -1,0 +1,7 @@
+
+
+
+
+
+Falta input to db
+weather api to front e db
